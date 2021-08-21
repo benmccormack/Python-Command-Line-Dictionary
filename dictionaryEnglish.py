@@ -44,9 +44,6 @@ class Dictionary:
                 Prints the definition of the word, checks if the word has multiple defintions by checking if its type is a
                 list, if this is the case then each definition is printed on a new line. If the word only has a single meaning
                 then the meaning us returned
-
-
-
     """
     def __init__(self):
         word = input("Enter word: ")
